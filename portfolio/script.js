@@ -12,7 +12,7 @@ accordionBtns.forEach((accordion) => {
         } else {
             content.style.maxHeight = content.scrollHeight + "px";
             console.log(content.style.maxHeight);
-        }
+        };
 
     };
 });
