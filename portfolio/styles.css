@@ -1,0 +1,134 @@
+.panel {
+    background-color: rgb(196, 209, 198);
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+button.accordion {
+    width: 100%;
+    background-color: rgb(158, 174, 157);
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+    font-family: monospace;
+    background-image: url("pikachu.jpg");
+    background-size: cover;
+}
+
+button.accordion:after {
+    content: "\f150";
+    font-family: "monospace";
+    font-size: 18px;
+    float: right;
+}
+
+button.accordion.is-open:after {
+    content: \f151;
+}
+
+button.accordion:hover,
+button.accordion.is-open {
+    background-color: #ddd;
+}
+
+#tervetuloa {
+    text-align: center;
+    font-size: 60px;
+    font-family: monospace;
+    letter-spacing: 3px;
+    text-shadow: rgb(100, 107, 101) 2px 2px 2px;
+    color: rgb(225, 250, 225);
+    background-color: rgb(153, 166, 154);
+    height: 80px;
+    transform: translateY(-30%);
+    background-image: url("Unknown.png");
+    background-repeat: no-repeat;
+    width: 159px;
+}
+
+body {
+    background-color: rgb(50, 54, 50);
+}
+
+#containertext {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    color: rgb(190, 188, 188);
+    text-shadow: rgb(219, 215, 215) 0.5px 0.5px 0.5px;
+}
+
+#portfolio {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    color: rgb(188, 182, 182);
+    text-align: right;
+}
+
+li {
+    text-align: right;
+    transform: translateY(10%);
+    transform: translateX(-25);
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(78, 75, 75);
+    letter-spacing: 3px;
+}
+
+a {
+    color: rgb(148, 154, 137);
+}
+
+#guessing {
+    text-align: center;
+    transform: translateX(895%);
+    font-size: 20px;
+    background-color: rgb(146, 166, 147);
+    color: rgb(9, 9, 9);
+    box-shadow: rgb(124, 129, 124) 1px 1px 2px;
+    background-image: url("pikachu.jpg");
+}
+
+#up {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    background-color: rgb(150, 156, 150);
+    text-align: center;
+    border-radius: 1%;
+    border-left: 6%;
+    font-size: 20px;
+    color: white;
+    text-shadow: rgb(139, 164, 140) 1px 1px 1px;
+}
+
+#guess {
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: 14px;
+}
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(41, 37, 37);
+}
+
+footer {
+    padding: 3px;
+    background-color: rgb(112, 111, 107);
+}
